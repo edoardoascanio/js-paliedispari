@@ -1,6 +1,5 @@
 var parolaUtente = prompt("Inserisci una parola");
 console.log("Parola inserita: " + parolaUtente)
-var carattere;
 var parolaInversa = invertiParola(parolaUtente);
 
 if (parolaUtente.length < 3) {
@@ -9,7 +8,7 @@ if (parolaUtente.length < 3) {
 }
 
 function invertiParola(parolaUtente) {
-    var parolaInversa = '';
+    var parolaInversa = "";
 
     var i = parolaUtente.length - 1;
 
